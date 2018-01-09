@@ -13,8 +13,9 @@ In brief, we first tested whether a nucleotide in one position is paired with an
 Secondary structure from pri-miRNA sequence reported in [miRBase 21](http://www.mirbase.org/) usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
 
 ```
->hsa-mir-9-1
-(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))
+>hsa-mir-9-1 MI0000466
+CGGGGUUGGUUGUUAUCUUUGGUUAUCUAGCUGUAUGAGUGGUGUGGAGUCUUCAUAAAGCUAGAUAACCGAAAGUAAAAAUAACCCCA
+.(((((((....((((.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))))...))))))).
 ```
 
 Therefore, we obtained the secondary structure from pri-miRNA sequence obtained from longer genomic sequences on [UCSC Genome Browser](https://genome.ucsc.edu/)
