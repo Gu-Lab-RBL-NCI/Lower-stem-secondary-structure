@@ -26,11 +26,13 @@ Therefore, we obtained the secondary structure from pri-miRNA sequence obtained 
 Structure of the 5' lower stem
 
 `-30__________________________-1`
+
 `......(((((...(.(((((((....(((`
 
 Structure of the 3' lower stem
 
 `+1_________________________+30`
+
 `))...))))))).)...))).)).......`
 
 
