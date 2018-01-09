@@ -10,7 +10,7 @@ In brief, we first tested whether a nucleotide in one position is paired with an
 #### Example 1
 **1. pri-miRNA secondary structure**
 
-Secondary structure from pri-miRNA sequence reported in miRBase 21 usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
+Secondary structure from pri-miRNA sequence reported in [miRBase 21](http://www.mirbase.org/) usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
 
 `>hsa-mir-9-1`
 `(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))`
@@ -42,6 +42,23 @@ For each position on the lower stem, we count the frequency of nucleotides on th
 
 #### Example 2
 **4. Detection of secondary stems**
+
+It is not unfrequent to detect pri-miRNA where the lower stem, due to its less structured nature, presents secondary stems.
+
+`hsa-mir-152 5' lower stem`
+
+`-30__________________________-1`
+
+`..((((...)))..))((((..((.(((((`
+
+In such cases, our script excludes those positions from the being counted as "lower stem base-paired" nucleotides. To that aim our code replaces in the bracket-dot notation, the brackets on the secondary stem for `*`.
+
+`hsa-mir-152 5' lower stem`
+
+`-30__________________________-1`
+
+`..***....***..**((((..((.(((((`
+
 
 
 **References:**
