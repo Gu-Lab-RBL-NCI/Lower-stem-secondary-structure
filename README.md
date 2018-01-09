@@ -12,9 +12,8 @@ In brief, we first tested whether a nucleotide in one position is paired with an
 
 Secondary structure from pri-miRNA sequence reported in miRBase 21
 
-`> hsa-mir-9-1`
-
-`(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))`
+`> hsa-mir-9-1
+(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))`
 
 Secondary structure from pri-miRNA sequence obtained from [UCSC Genome Browser](https://genome.ucsc.edu/)
 
