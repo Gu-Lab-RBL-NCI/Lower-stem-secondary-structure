@@ -19,7 +19,9 @@ Secondary structure from pri-miRNA sequence reported in [miRBase 21](http://www.
 
 Therefore, we obtained the secondary structure from pri-miRNA sequence obtained from longer genomic sequences on [UCSC Genome Browser](https://genome.ucsc.edu/)
 
-`......(((((...(.(((((((....((((.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))))...))))))).)...))).)).......`
+```
+......(((((...(.(((((((....((((.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))))...))))))).)...))).)).......
+```
 
 *Note that in most cases the secondary structure of the pri-miRNA sequence reported in miRBase21 is already included in the longer sequence. Most discrepancies might come from alternative foldings derived from providing extra-context to RNAfold.*
 
@@ -27,15 +29,17 @@ Therefore, we obtained the secondary structure from pri-miRNA sequence obtained 
 
 Structure of the 5' lower stem
 
-`-30__________________________-1`
-
-`......(((((...(.(((((((....(((`
+```
+-30__________________________-1
+......(((((...(.(((((((....(((
+```
 
 Structure of the 3' lower stem
 
-`+1_________________________+30`
-
-`))...))))))).)...))).)).......`
+```
++1_________________________+30`
+))...))))))).)...))).)).......
+```
 
 **3. Fraction of stem base-paired nucleotides**
 
@@ -47,19 +51,20 @@ For each position on the lower stem, we count the frequency of nucleotides on th
 
 It is not unfrequent to detect pri-miRNA where the lower stem, due to its less structured nature, presents secondary stems.
 
-`hsa-mir-152 5' lower stem`
-
-`-30__________________________-1`
-
-`..((((...)))..))((((..((.(((((`
+```
+hsa-mir-152 5' lower stem
+-30__________________________-1
+..((((...)))..))((((..((.(((((
+```
 
 In such cases, our script excludes those positions from the being counted as "lower stem base-paired" nucleotides. To that aim our code replaces in the bracket-dot notation, the brackets on the secondary stem for `*`.
 
-`hsa-mir-152 5' lower stem`
+```
+hsa-mir-152 5' lower stem
+-30__________________________-1
+..***....***..**((((..((.(((((
+```
 
-`-30__________________________-1`
-
-`..***....***..**((((..((.(((((`
 
 
 
