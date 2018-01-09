@@ -8,7 +8,7 @@ Genomic sequences of pri-miRNAs were obtained from [UCSC Genome Browser](https:/
 In brief, we first tested whether a nucleotide in one position is paired with another on the other side of the pre-miRNA. Nucleotides that failed such a test were labeled as unpaired. Then, we aligned all pri-miRNA 5p sequences by the 5’ Drosha cleavage site (5’ end of pre-miRNA) and aligned all 3p sequences by the 3’ Drosha cleavage site (3’ end of pre-miRNA). The percentage of paired nucleotides was calculated for each position and was plotted against its relative distance to the Drosha cleavage site.
 
 ### Example 1
-**1. pri-miRNA secondary structure**
+ ## **1. pri-miRNA secondary structure**
 
 Secondary structure from pri-miRNA sequence reported in [miRBase 21](http://www.mirbase.org/) usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
 
@@ -25,7 +25,7 @@ Therefore, we obtained the secondary structure from pri-miRNA sequence obtained 
 
 *Note that in most cases the secondary structure of the pri-miRNA sequence reported in miRBase21 is already included in the longer sequence. Most discrepancies might come from alternative foldings derived from providing extra-context to RNAfold.*
 
-**2. Isolate the 5' and 3' lower stem segments**
+## **2. Isolate the 5' and 3' lower stem segments**
 
 Structure of the 5' lower stem
 
@@ -41,13 +41,13 @@ Structure of the 3' lower stem
 ))...))))))).)...))).)).......
 ```
 
-**3. Fraction of stem base-paired nucleotides**
+## **3. Fraction of stem base-paired nucleotides**
 
 For each position on the lower stem, we count the frequency of nucleotides on the 5' with `(` over the total, while on the 3' we count only the `)`.
 
 
 ### Example 2
-**4. Detection of secondary stems**
+## **4. Detection of secondary stems**
 
 It is not unfrequent to detect pri-miRNA where the lower stem, due to its less structured nature, presents secondary stems.
 
