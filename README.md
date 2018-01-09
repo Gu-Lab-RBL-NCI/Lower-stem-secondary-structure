@@ -67,7 +67,9 @@ hsa-mir-152 5' lower stem
 ```
 
 
+### Acknowledgements:
 
+This code was written by Susanna Chen and supervised by Xavier Bofill-De Ros supervision.
 
 ### References:
 
