@@ -69,7 +69,7 @@ hsa-mir-152 5' lower stem
 
 ### Acknowledgements:
 
-This code was written by Susanna Chen and supervised by [Xavier Bofill-De Ros](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bofill-De%20Ros%20X%5BAuthor%5D&cauthor=true&cauthor_uid=28725635) supervision.
+This code was written by Susanna Chen and supervised by [Xavier Bofill-De Ros](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bofill-De%20Ros%20X%5BAuthor%5D&cauthor=true&cauthor_uid=28725635).
 
 ### References:
 
