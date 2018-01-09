@@ -7,7 +7,7 @@ Genomic sequences of pri-miRNAs were obtained from [UCSC Genome Browser](https:/
 
 In brief, we first tested whether a nucleotide in one position is paired with another on the other side of the pre-miRNA. Nucleotides that failed such a test were labeled as unpaired. Then, we aligned all pri-miRNA 5p sequences by the 5’ Drosha cleavage site (5’ end of pre-miRNA) and aligned all 3p sequences by the 3’ Drosha cleavage site (3’ end of pre-miRNA). The percentage of paired nucleotides was calculated for each position and was plotted against its relative distance to the Drosha cleavage site.
 
-#### Example 1
+### Example 1
 **1. pri-miRNA secondary structure**
 
 Secondary structure from pri-miRNA sequence reported in [miRBase 21](http://www.mirbase.org/) usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
@@ -46,7 +46,7 @@ Structure of the 3' lower stem
 For each position on the lower stem, we count the frequency of nucleotides on the 5' with `(` over the total, while on the 3' we count only the `)`.
 
 
-#### Example 2
+### Example 2
 **4. Detection of secondary stems**
 
 It is not unfrequent to detect pri-miRNA where the lower stem, due to its less structured nature, presents secondary stems.
@@ -68,5 +68,5 @@ hsa-mir-152 5' lower stem
 
 
 
-**References:**
+###References:
 Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., and Hofacker, I.L. (2008). The Vienna RNA websuite. Nucleic Acids Res 36, W70-4.
