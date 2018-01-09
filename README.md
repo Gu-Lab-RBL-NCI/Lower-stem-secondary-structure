@@ -10,15 +10,16 @@ In brief, we first tested whether a nucleotide in one position is paired with an
 #### Example
 **1. pri-miRNA secondary structure**
 
-Secondary structure from pri-miRNA sequence reported in miRBase 21
+Secondary structure from pri-miRNA sequence reported in miRBase 21 usually don't contain many upstream or downstream nucleotides from the Drosha cleavage sites.
 
-`>hsa-mir-9-1-miRBase21
-(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))`
+`>hsa-mir-9-1`
+`(.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))`
 
-Secondary structure from pri-miRNA sequence obtained from [UCSC Genome Browser](https://genome.ucsc.edu/)
+Therefore, we obtained the secondary structure from pri-miRNA sequence obtained from longer genomic sequences on [UCSC Genome Browser](https://genome.ucsc.edu/)
 
-`>hsa-mir-9-1-miRBase21
-......(((((...(.(((((((....((((.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))))...))))))).)...))).)).......`
+`......(((((...(.(((((((....((((.(((((((((((((((.((((((.(.(....).).)))))).))))))))))))))).))))...))))))).)...))).)).......`
+
+Note that in most cases the secondary structure of the pri-miRNA sequence reported in miRBase21 is already included in the longer sequence. Most discrepancies might come from alternative foldings derived from providing extra-context to RNAfold.
 
 **References:**
 Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., and Hofacker, I.L. (2008). The Vienna RNA websuite. Nucleic Acids Res 36, W70-4.
