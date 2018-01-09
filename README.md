@@ -1,7 +1,7 @@
 # Lower-stem-secondary-structure
 ### Scripts used for the analysis of the pri-miRNA lower stem structure.
 
-Genomic sequences of pri-miRNAs were obtained from [UCSC Genome Browser](https://genome.ucsc.edu/). Each pri-miRNA analyzed consists of the pre-miRNA and flanking sequences of 30 nt both sides. The secondary structure was obtained using RNAfold(Gruber et al., 2008), and the bracket-dot notation of the lower stem was analyzed using this R scripts. 
+Genomic sequences of pri-miRNAs were obtained from [UCSC Genome Browser](https://genome.ucsc.edu/). Each pri-miRNA analyzed consists of the pre-miRNA and flanking sequences of 30 nt both sides. The secondary structure was obtained using RNAfold [(Gruber et al., 2008)](https://www.ncbi.nlm.nih.gov/pubmed/18424795), and the bracket-dot notation of the lower stem was analyzed using this R scripts. 
 
 <img src="https://github.com/Gu-Lab-RBL-NCI/Lower-stem-secondary-structure/blob/master/drosha-cleavage.png" width="175" height="189">
 
