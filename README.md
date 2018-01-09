@@ -70,4 +70,4 @@ hsa-mir-152 5' lower stem
 
 ### References:
 
-Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., and Hofacker, I.L. (2008). The Vienna RNA websuite. Nucleic Acids Res 36, W70-4.
+[Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., and Hofacker, I.L. (2008). The Vienna RNA websuite. Nucleic Acids Res 36, W70-4.](https://www.ncbi.nlm.nih.gov/pubmed/18424795)
